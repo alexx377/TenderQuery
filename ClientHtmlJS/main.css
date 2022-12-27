@@ -1,0 +1,105 @@
+body {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+table#head {
+    width: 100%;
+    font-size: 34pt;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+    background-color: bisque;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+table#main {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+table.dataTable {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+tr.dataRow {
+    background-color: antiquewhite;
+}
+
+tr.dataRowLevel0 {
+    background-color: red;
+}
+
+tr.dataRowLevel1 {
+    background-color: orange;
+}
+
+tr.dataRowLevel2 {
+    background-color: yellow;
+}
+
+tr.dataRowLevel3 {
+    background-color: lightgreen;
+}
+
+td#time {
+    width: 25%;
+    text-align: center;
+    font-size: 64pt;
+}
+
+td#date {
+    text-align: center;
+}
+
+td#tenders {
+    width: 10%;
+    text-align: center;
+}
+
+td#timer {
+    width: 25%;
+    text-align: center;
+    font-size: 64pt;
+}
+
+td.timeCell {
+    font-size: 42pt;
+    text-align: center;
+    vertical-align: top;
+    width: 150px;
+
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+td.timeCell div {
+    font-size: 32pt;
+}
+
+td.dataCell {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+td.numberCell {
+    width: 350px;
+}
+
+td.objectCell {
+
+}
+
+td.tradingFloorCell {
+    vertical-align: top;
+}
+
+td.customerCell {
+    font-size: 14pt;
+}
